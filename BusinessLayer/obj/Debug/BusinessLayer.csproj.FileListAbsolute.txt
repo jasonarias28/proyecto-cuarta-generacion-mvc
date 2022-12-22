@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\bin\Debug\DataAccess.dll
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\bin\Debug\DataAccess.pdb
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\bin\Debug\DataAccess.dll.config
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\User\source\repos\AplicacionProyectoCuartaGeneracionIV\BusinessLayer\obj\Debug\BusinessLayer.pdb
