@@ -1,10 +1,10 @@
 ﻿@model EntityLayer.ClienteBO
 
 @{
-    ViewBag.Title = "Insert";
+    ViewBag.Title = "Create";
 }
 
-<h2>Insert</h2>
+<h2>Create</h2>
 
 
 @using (Html.BeginForm()) 
@@ -12,7 +12,7 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>ClienteBO</h4>
+        <h4>User</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
@@ -64,7 +64,7 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Go to List", "List")
 </div>
 
 @section Scripts {

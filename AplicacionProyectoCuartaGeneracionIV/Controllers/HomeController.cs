@@ -22,7 +22,7 @@ namespace AplicacionProyectoCuartaGeneracionIV.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Documentación del proceso";
 
             return View();
         }

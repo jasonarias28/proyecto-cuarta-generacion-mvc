@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<EntityLayer.ClienteBO>
 
 @{
-    ViewBag.Title = "List";
+    ViewBag.Title = "Read";
 }
 
-<h2>List</h2>
+<h2>Read</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Insert", new {  }, new { @class = "btn btn-success" })
 </p>
 <table class="table">
     <tr>
@@ -47,9 +47,8 @@
             @Html.DisplayFor(modelItem => item.TELEFONO)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Update", new { USER_ID=item.USER_ID }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { USER_ID = item.USER_ID })
+            @Html.ActionLink("Update", "Update", new { USER_ID = item.USER_ID }, new { @class = "btn btn-primary" })
+            @Html.ActionLink("Delete", "Delete", new { USER_ID = item.USER_ID }, new { @class = "btn btn-danger" })
         </td>
     </tr>
 }

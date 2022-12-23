@@ -1,17 +1,39 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Info";
 }
-<h2>@ViewBag.Title.</h2>
+<h2>@ViewBag.Title</h2>
 <h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<div class="row">
+    <div class="col-md-6">
+        <h2>Aplicativo</h2>
+        <p>
+            Este es un aplicativo creado en Visual Studio con ASP.NET con el modelo MVC.
+            <br>
+            <br>
+            Consta de 3 páginas:
+            <ul>
+                <li><b>Homepage:</b> donde se encuentra el nombre de la aplicación, por quien fue realizada y algunos botones que redirigen a las otras dos páginas.</li>
+                <li><b>CRUD:</b> donde se pueden realizar las funciones de Create, Read, Update y Delete</li>
+                <li><b>Info:</b> es la página en la que nos encontramos actualmente, contiene documentación sobre el aplicativo y del Oracle RAC</li>
+            </ul>
+        </p>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+    </div>
+    <div class="col-md-6">
+        <h2>Oracle RAC</h2>
+        <p>Pasos seguidos en la configuración del Oracle RAC</p>
+        <p>
+            <ul>
+                <li>Se configuraron las máquinas virtuales con Oracle Linux</li>
+                <li>Se configuraron los host y las direcciones ip de las máquinas virtuales</li>
+                <li>Creación de discos compartidos entre máquinas</li>
+                <li>Configuración del ASM</li>
+                <li>Configuración del grid</li>
+                <li>Configuración del Oracle 19c</li>
+                <li>Creación de la base de datos final</li>
+            </ul>
+        </p>
+
+    </div>
+</div>
